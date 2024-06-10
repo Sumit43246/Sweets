@@ -308,3 +308,6 @@ header{
     color:white;
     font-family:sans-serif;
     }
+    #menu_item:hover{
+        background-color: yellow;
+    }
