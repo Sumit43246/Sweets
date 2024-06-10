@@ -1,21 +1,174 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<DOCTYPE html>
+    <html>
+    <head>
     <title>Sweets</title>
     <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <h1>Welcome to the Shop!</h1>
+    </head>
+    <body>
+    <header>
+    <h1 id="brand_name">Sweetshop.com</h1>
+    <p id="tag_line">The world's largest sweets and bakeries shop</p>
+    </header>
+    
     <nav>
-        <ul>
-            <li>Hello 1</li>
-            <li>Hello 1</li>
-            <li>Hello 1</li>
-            <li>Hello 1</li>
-            <li>Hello 1</li>
-        </ul>
+    <form>
+    <input type="search" name="search" placeholder="Search your sweets here" id="search" >
+    <input type="submit" id="submit-btn" value="Search">
+    </form>
+    
+    <table id="menu_table">
+    <tr>
+    <td id="menu_item"><a href="#">Home</td>
+    <td id="menu_item"><a href="#">Sweets</td>
+    <td id="menu_item"><a href="#">Bakeries</td>
+    <td id="menu_item"><a href="#">About us</td>
+    <td id="menu_item"><a href="#">Content us</td>
+    </tr>
+    </table>
+    
+    
     </nav>
-</body>
-</html>
+    
+    <section>
+    <address id="venue">
+    venue : hari nagar,jaitpur, New delhi-110044 
+    </address>
+    
+    <address id="phone">
+    Order Online : +91 9540874540 , +91 9891087410 
+    </address>
+    <div id="popular-sweets-box">
+    <h1 id="popular-sweets-title">Our popular sweets<h1>
+    <img src="images/a.jpg" alt="a" id="popular-Sweets-img"/>
+    <img src="images/b.jpg" alt="b" id="popular-Sweets-img"/>
+    <img src="images/c.jpg" alt="c" id="popular-Sweets-img"/>
+    <img src="images/d.jpg" alt="d" id="popular-Sweets-img"/>
+    <img src="images/e.jpg" alt="e" id="popular-Sweets-img"/>
+    <img src="images/f.jpg" alt="f" id="popular-Sweets-img"/>
+    </div>
+    
+    <table id="rate_list_box">
+    <tr>
+    <td id="rate_header">Sweets name</td>
+    <td id="rate_header">Price</td>
+    </tr>
+    
+    <tr>
+    <td id="rate_content">
+    <ol>
+    <li id="s_name">Rasgulla</li>
+    <li id="s_name">Laddo</li>
+    <li id="s_name">Barfi</li>
+    <li id="s_name">Rasmalai</li>
+    <li id="s_name">Kaju-katli</li>
+    <li id="s_name">Gulab-jamun</li>
+    <li id="s_name">Malai-khaja</li>
+    <li id="s_name">Rabri</li>
+    <li id="s_name">Balushahi</li>
+    </ol>
+    </td>
+    <td id="rate_content">
+    <ol id="rate">
+    <li id="s_name">200/kg</li>
+    <li id="s_name">150/kg</li>
+    <li id="s_name">400/kg</li>
+    <li id="s_name">500/kg</li>
+    <li id="s_name">400/kg</li>
+    <li id="s_name">150/kg</li>
+    <li id="s_name">600/kg</li>
+    <li id="s_name">550/kg</li>
+    <li id="s_name">500/kg</li>
+    </ol>
+    </td>
+    </tr>
+    </table>
+    
+    <fieldset id="frm_box">
+    <legend>Order Online</legend>
+    
+    <form id="order_online" >
+    Buyer Name<br>
+    <input type="text"name="name" id="order_input"><br><br>
+    Mobile No.<br>
+    <input type="Number" name="mobile" id="order_input"><br><br>
+    Choose Sweets<br>
+    
+    <select name="choose_sweets" id="order_input">
+    <option value="Rasgulla">Rasgulla</option>
+    <option value="Laddo">Laddo</option>
+    <option value="Barfi">Barfi</option>
+    <option value="Rasmalai">Rasmalai</option>
+    <option value="Kaju-katli">Kaju-katli</option>
+    <option value="Gulab-jamun">Gulab-jamun</option>
+    <option value="Malai-khaja">Malai-khaja</option>
+    <option value="Rabri">Rabri</option>
+    <option value="Balushahi">Balushahi</option>
+    </select>
+    
+    <br><br>
+    Quantity<br>
+    <input type="text" name="Quantity" id="order_input">
+    <br><br>
+    Address<br>
+    
+    <textarea name="address"></textarea>
+    <br><br>
+    <input type="submit" value="Order Now!" id="submit_btn">
+    </form>
+    
+    </fieldset>
+    
+    <div id="abt_us">
+    <h1 align="center" id="abt_title">About Us</h1>
+    <hr>
+    <p id="abt_text">
+    The taste of sugar is a highly desired taste around the world and sharing sweets among one another signifies happiness and celebration. Sweet taste gives a sense of happiness and satisfaction to most of us. The word “sweet” itself sound nice and pleasing to most of us, especially for children, but that's not all!
+    The sweetness of sugar comes from a chemical interaction between sugar molecules and sweet taste receptor cells, which are found in our taste buds and on the roof of our mouth.
+    Indian sweets are a type of confectionery that rely heavily on sugar, milk, flour and condensed milk. Although the bases of these sweets vary among regions, one thing is probably universal throughout the length and breadth of this vast country, it is the love for these colourful sweets which every Indian shares equally.
+    The taste of sugar is a highly desired taste around the world and sharing sweets among one another signifies happiness and celebration. Sweet taste gives a sense of happiness and satisfaction to most of us. The word “sweet” itself sound nice and pleasing to most of us, especially for children, but that's not all!
+    The sweetness of sugar comes from a chemical interaction between sugar molecules and sweet taste receptor cells, which are found in our taste buds and on the roof of our mouth.
+    Indian sweets are a type of confectionery that rely heavily on sugar, milk, flour and condensed milk.
+    
+    </p>
+    </div>
+    
+    <div id="m_sweets">
+    <h1 id="mr_sweets">More Sweets</h1>
+    </div>
+    
+    <div id="Sweets">
+    <img src="images/g.jpg" id="sweets_pic">
+    <center>
+    <a href="#frm_box"><button id="buy_btn">Buy Now</button></a>
+    </center>
+    </div>
+    <div id="Sweets">
+    <img src="images/h.jpg" id="sweets_pic">
+    <center>
+    <a href="#frm_box"><button id="buy_btn">Buy Now</button></a>
+    </center>
+    </div>
+    <div id="Sweets">
+    <img src="images/i.jpg" id="sweets_pic">
+    <center>
+    <a href="#frm_box"><button id="buy_btn">Buy Now</button></a>
+    </center>
+    </div>
+    <div id="Sweets">
+    <img src="images/j.jpg" id="sweets_pic">
+    <center>
+    <a href="#frm_box"><button id="buy_btn">Buy Now</button></a>
+    </center>
+    </div>
+    <div id="Sweets_end">
+    <img src="images/k.jpg" id="sweets_pic">
+    <center>
+    <a href="#frm_box"><button id="buy_btn">Buy Now</button></a>
+    </center>
+    </div>
+    </section>
+    <footer>
+    
+    </footer>
+    </body>
+    </html>
